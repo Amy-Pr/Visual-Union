@@ -116,7 +116,7 @@ header {
   width: 90%;
 }
 
-img {
+.img-logo {
   width: 50%;
   min-height: 100px;
 }
@@ -163,6 +163,14 @@ figure {
   position: relative;
   margin: 1em;
 }
+
+.video-links {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
 
 /*.main-nav ul {
   color:#5c5c00;
@@ -634,7 +642,7 @@ footer {
     align-self: flex-end;
   }
 
-  img {
+  .img-logo {
     width: 100%;
     min-height: 150px;
   }
@@ -733,11 +741,11 @@ footer {
 @media (min-width: 1000px) {
 
 header {
-  width: 60%;
+  width: 70%;
 }
 
 .content-wrapper {
-  width: 42%;
+  width: 50%;
 }
 
 .menu-wrap {
