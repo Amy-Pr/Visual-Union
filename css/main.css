@@ -164,11 +164,13 @@ figure {
   margin: 1em;
 }
 
+
 .video-links {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  margin-top: 30px;
+  display: none;
+}
+
+#videoPlayback {
+  display: none;
 }
 
 
@@ -543,42 +545,7 @@ footer {
    ========================================================================== */
 
 
-/****TABLET STYLES *****/
-/*@media (min-width: 768px) {
-
-  .content-wrapper {
-    width: 80%;
-  }
-
-  figure {
-    padding: 30%;
-
-  }
-
-  /*Footer styles for Tablet*/
- /* .footer-nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-  }
-
-  .footer-menu-1 {
-    padding-bottom: 14px;
-    height: 150px;
-    display: flex;
-    flex-flow: column wrap;
- }
-
-  .footer-menu-1 li {
-    display: inline;
-    padding: 10px;
-  }
-
-
-}*/
-
-
-/*** DESKTOP STYLES ****/ 
+/*** TABLET STYLES ****/ 
 
 @media (min-width: 768px) {
 
@@ -695,6 +662,26 @@ footer {
     margin-left: 25px;
   }
   
+
+  .video-links {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    /*margin-top: 30px;*/
+    padding: 20px;
+  }
+
+ #selectDemo1, #selectDemo2, #selectDemo3, #selectDemo4 {
+   display: none;
+
+ }
+  
+ #videoPlayback {
+   display: initial;
+ }
+
+
+
   /**Undo Hidden Footer Nav**/
 .footer-nav, .footer-menu-1 {
   visibility: visible;
