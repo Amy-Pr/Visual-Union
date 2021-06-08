@@ -94,7 +94,6 @@ body {
 	font-size: 14px;
   background-color:#000000;
   color: #cccccc;
-  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -161,7 +160,7 @@ h3 {
 
 
 figure {
-  padding: 60% 0 0 0; 
+  padding: 80% 0 0 0; 
   position: relative;
   margin: 1em;
 }
@@ -680,6 +679,10 @@ footer {
     padding-left: 15px;
   }
 
+  figure {
+    padding: 60% 0 0 0; 
+  }
+
   .video-links {
     display: flex;
     flex-flow: row wrap;
@@ -689,7 +692,7 @@ footer {
   }
 
 
- #selectDemo1, #selectDemo2, #selectDemo3, #selectDemo4 {
+ .select-demo {
    display: none;
 
  }
