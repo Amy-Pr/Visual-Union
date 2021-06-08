@@ -46,15 +46,15 @@
                     <nav class="main-nav">
               
                       <ul class="navmain">
-                        <li><a href="final_project.html">Welcome</a></li>
-                        <li><a href="publicspeakingvideo.html">Video Production</a></li>
+                        <li><a href="index.html">Welcome</a></li>
+                        <li><a href="public-speaking.html">Video Production</a></li>
                       </ul>  
                       <ul class="navsub"> 
-                        <li><a href="publicspeakingvideo.html">Speaking and Training</a></li>
-                        <li><a href="salespromotionalvideo.html">Business Promotion</a></li>
-                        <li><a href="musicperformancevideo.html">Music and Performance</a></li>
-                        <li><a href="familyvideo.html">Sports and Family Events</a></li>
-                        <li><a href="documentaryfilm.html">Documentary Film</a></li>
+                        <li><a href="public-speaking.html">Speaking and Training</a></li>
+                        <li><a href="business-promotion.html">Business Promotion</a></li>
+                        <li><a href="music-performance.html">Music and Performance</a></li>
+                        <li><a href="family-video.html">Sports and Family Events</a></li>
+                        <li><a href="documentary-film.html">Documentary Film</a></li>
                       </ul> 
                       <ul class="navmain">    
                         <li><a href="multimedia.html">Other Media</a></li>
@@ -78,7 +78,7 @@
                 <h3>Connect in depth through interviews:</h3>
                 <p>Dig deep into your topic with thoughtful and insightful interviews.</p>
 
-                
+                <p class="click-callout">Click the links below to load each video.</p>
                 
                 <figure id="videoPlayback">
                     <iframe src="https://player.vimeo.com/video/289838371?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" 
@@ -100,9 +100,19 @@
                 </figure>
                 <script src="https://player.vimeo.com/api/player.js"></script> 
 
+                <!--HI DAVE! TO ADD NEW VIDEOS, COPY THE CODE BELOW AND FILL IN VIDEO ID NUMBER ##### AND selectDemo# ID TAG! AND VOILA!
+                
+                <figure id="selectDemo#">
+                  <iframe src="https://player.vimeo.com/video/#######?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" 
+                    frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                </figure>
+                <script src="https://player.vimeo.com/api/player.js"></script> 
+                
+              -->
+
 
                 <div class="video-links">
-
+                  
                   <div class="video-l">
                     <a href="https://vimeo.com/visualunion/2018eventvideodemo" onclick='return playVideo("selectDemo1","videoPlayback")'>
                       <img src="./img/Glamourama.png" alt="Galmourama 2003 with Charlie from the Bachelor image"/>
@@ -121,6 +131,18 @@
                     </a></p>
                   </div>
 
+                  <!--HI AGAIN DAVE! TO ADD NEW VIDEO THUMBNAILS, COPY THE CODE BELOW, UPDATE THE video-# CLASS, the selectDemo# ID, AND YOUR LINKS AND CONTENT!
+                  
+                  <div class="video-#">
+                    <a href="YOUR LINK" onclick='return playVideo("selectDemo#","videoPlayback")'>
+                      <img src="YOUR IMAGE" alt=""/>
+                    </a>
+                    <p><a href="YOUR LINK AGAIN" onclick='return playVideo("selectDemo#","videoPlayback")'>YOUR LINK TEXT</a></p>
+                  </div>
+                  
+                  -->
+
+
                 </div>
 
 
@@ -138,39 +160,24 @@
         
                 <div class="footer-nav">
                     <ul class="footer-menu-1">
-                        <li><a href="index">Welcome</a></li>
-                        <li><a href="publicspeakingvideo">Presentations</a></li>
-                        <li><a href="salespromotionalvideo">Business</a></li>
-                        <li><a href="musicperformancevideo">Music</a></li>
-                        <li><a href="familyvideo">Family</a></li>
-                        <li><a href="documentaryfilm">Documentary Film</a></li>
-                        <li><a href="multimedia">Other Media</a></li>
-                        <li><a href="http://www.bracket1.com">Bracket 1</a></li>
-                        <li><a href="contact">Contact</a></li>
+                      <li><a href="index.html">Welcome</a></li>
+                      <li><a href="public-speaking.html">Presentations</a></li>
+                      <li><a href="business-promotion.html">Business</a></li>
+                      <li><a href="music-performance.html">Music</a></li>
+                      <li><a href="family-video.html">Family</a></li>
+                      <li><a href="documentary-film.html">Documentary Film</a></li>
+                      <li><a href="multimedia">Other Media</a></li>
+                      <li><a href="http://www.bracket1.com">Bracket 1</a></li>
+                      <li><a href="contact.html">Contact</a></li>
                     </ul>
 
-                    <!--<ul class="footer-menu-2">
-                        <li><a href="http://www.bracket1.com">Wireless Receiver Camera Accessory Mounting Brackets</a></li>
-                        <li><a href="buyingausedcarvideo">Buying A Used Car Video</a></li>
-                    </ul>--->
+                    
                 </div>
             </div> <!---end of footer content wrapper-->
 
         </footer>
 
         <script type="text/javascript" src="script.js"></script>
-<!---<script>
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-18276700-4']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-</script> ---WHAT IS THIS?-->
-
 
     </div> <!--container div closed-->
 </body>
