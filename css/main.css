@@ -160,7 +160,7 @@ h3 {
 
 
 figure {
-  padding: 80% 0 0 0; 
+  padding: 60% 0 0 0; 
   position: relative;
   margin: 1em;
 }
@@ -677,10 +677,6 @@ footer {
     font-size: .8em;
     margin-bottom: 0;
     padding-left: 15px;
-  }
-
-  figure {
-    padding: 60% 0 0 0; 
   }
 
   .video-links {
